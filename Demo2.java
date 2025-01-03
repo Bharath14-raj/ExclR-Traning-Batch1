@@ -2,13 +2,13 @@ public class Demo2 {
     public Demo2() {
     }
 
-    public static void main(String[] var0) {
-        byte var1 = 5;
-        byte var2 = 6;
-        if (var1 > var2) {
-            System.out.println(var1);
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 6;
+        if (x > y) {
+            System.out.println(x);
         } else {
-            System.out.println(var2);
+            System.out.println(y);
         }
 
     }
